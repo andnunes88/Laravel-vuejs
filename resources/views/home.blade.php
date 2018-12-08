@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <pagina tamanho="8">
+    <pagina tamanho="10">
         
         <painel titulo="Dashboard">
         
             <div class="row">
 
                 <div class="col-md-4">
-                    <caixa qtd="80" titulo="Artigo" url="#" cor="orange" icone="ion ion-pie-graph"></caixa>
+                    <caixa qtd="80" titulo="Artigo" url="{{route('artigos.index')}}" cor="orange" icone="ion ion-pie-graph"></caixa>
                 </div>
 
                 <div class="col-md-4">
