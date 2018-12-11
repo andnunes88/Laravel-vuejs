@@ -5,7 +5,9 @@
     <pagina tamanho="10">
         
         <painel titulo="Dashboard">
-        
+
+            <migalhas v-bind:lista="{{$listaMigalhas}}"></migalhas>
+
             <div class="row">
 
                 <div class="col-md-4">
